@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97beae42-2f56-4b12-af69-03b620754f21" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.HexBA/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HexBA/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.HexBA/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HexBA/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HexGrid.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HexGrid.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,21 +15,23 @@
     <session id="68476175">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.15" value="2" />
           <entry key="project.open.time.34" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="35" />
+          <entry key="cs" value="52" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="35" />
+          <entry key="C#" value="52" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -56,14 +56,15 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/HexGrid.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="46" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
+            <state relative-caret-position="646">
+              <caret line="38" column="16" lean-forward="true" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
               <folding>
-                <marker date="1551518847308" expanded="true" signature="56:740" ph="{...}" />
-                <marker date="1551518847308" expanded="true" signature="192:410" ph="{...}" />
-                <marker date="1551518847308" expanded="true" signature="294:404" ph="{...}" />
-                <marker date="1551518847308" expanded="true" signature="340:394" ph="{...}" />
-                <marker date="1551518847308" expanded="true" signature="453:738" ph="{...}" />
+                <marker date="1551526287153" expanded="true" signature="6:40" ph="..." />
+                <marker date="1551526287153" expanded="true" signature="78:1171" ph="{...}" />
+                <marker date="1551526287153" expanded="true" signature="282:565" ph="{...}" />
+                <marker date="1551526287153" expanded="true" signature="449:559" ph="{...}" />
+                <marker date="1551526287153" expanded="true" signature="495:549" ph="{...}" />
+                <marker date="1551526287153" expanded="true" signature="608:1169" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -72,11 +73,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/HexCell.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="68">
+              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
               <folding>
-                <marker date="1551517430181" expanded="true" signature="56:230" ph="{...}" />
-                <marker date="1551517430181" expanded="true" signature="128:149" ph="{...}" />
-                <marker date="1551517430181" expanded="true" signature="207:228" ph="{...}" />
+                <marker date="1551518952319" expanded="true" signature="56:65" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -114,9 +114,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
       <pane id="FileSystemExplorer" />
       <pane id="UnityExplorer">
         <subPane>
@@ -134,6 +131,9 @@
           <select />
         </subPane>
         <option name="show-hidden-items" value="false" />
+      </pane>
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
       </pane>
     </panes>
   </component>
@@ -183,12 +183,15 @@
       <workItem from="1551471853250" duration="34000" />
       <workItem from="1551471954701" duration="73000" />
       <workItem from="1551472330740" duration="1309000" />
-      <workItem from="1551517398566" duration="843000" />
+      <workItem from="1551517398566" duration="1137000" />
+      <workItem from="1551520178533" duration="1236000" />
+      <workItem from="1551522615460" duration="595000" />
+      <workItem from="1551524883087" duration="1102000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2259000" />
+    <option name="totallyTimeSpent" value="5486000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -203,7 +206,7 @@
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11940298" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12260128" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -248,25 +251,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/HexCell.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="68">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
           <folding>
-            <marker date="1551517430181" expanded="true" signature="56:230" ph="{...}" />
-            <marker date="1551517430181" expanded="true" signature="128:149" ph="{...}" />
-            <marker date="1551517430181" expanded="true" signature="207:228" ph="{...}" />
+            <marker date="1551518952319" expanded="true" signature="56:65" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/HexGrid.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="46" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
+        <state relative-caret-position="646">
+          <caret line="38" column="16" lean-forward="true" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
           <folding>
-            <marker date="1551518847308" expanded="true" signature="56:740" ph="{...}" />
-            <marker date="1551518847308" expanded="true" signature="192:410" ph="{...}" />
-            <marker date="1551518847308" expanded="true" signature="294:404" ph="{...}" />
-            <marker date="1551518847308" expanded="true" signature="340:394" ph="{...}" />
-            <marker date="1551518847308" expanded="true" signature="453:738" ph="{...}" />
+            <marker date="1551526287153" expanded="true" signature="6:40" ph="..." />
+            <marker date="1551526287153" expanded="true" signature="78:1171" ph="{...}" />
+            <marker date="1551526287153" expanded="true" signature="282:565" ph="{...}" />
+            <marker date="1551526287153" expanded="true" signature="449:559" ph="{...}" />
+            <marker date="1551526287153" expanded="true" signature="495:549" ph="{...}" />
+            <marker date="1551526287153" expanded="true" signature="608:1169" ph="{...}" />
           </folding>
         </state>
       </provider>
