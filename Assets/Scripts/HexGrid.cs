@@ -42,10 +42,11 @@ public class HexGrid : MonoBehaviour
         HexCell hexCell = _cells[i] = Instantiate(CellPrefab);
         hexCell.transform.SetParent(transform, false);
         hexCell.transform.localPosition = position;
+        hexCell.HexCoordinates = HexCoordinates.FromOffsetCoordinates(x, z);
         
         Text labelText = Instantiate(HexCellLabelPrefab);
         labelText.rectTransform.SetParent(_gridCanvas.transform, false);
         labelText.rectTransform.anchoredPosition = new Vector2(position.x, position.z);
-        labelText.text = x + "\n" + z;
+        labelText.text = hexCell.HexCoordinates.ToStringOnSeparateLines();
     }
 }
