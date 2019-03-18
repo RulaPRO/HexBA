@@ -1,12 +1,17 @@
-﻿[System.Serializable]
+﻿using System;
+using UnityEngine;
+
+[Serializable]
 public struct HexCoordinates
 {
+    [SerializeField]
     private int _x;
     public int X
     {
         get { return _x; }
     }
 
+    [SerializeField]
     private int _z;
     public int Z
     {
