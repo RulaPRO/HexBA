@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97beae42-2f56-4b12-af69-03b620754f21" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.HexBA/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HexBA/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.HexBA/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HexBA/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Default.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Default.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HexMapCamera.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HexMapCamera.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,7 +18,7 @@
     <session id="68476175">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="21" />
+          <entry key="project.closed" value="22" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="4" />
@@ -27,20 +30,21 @@
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.18" value="2" />
           <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.31" value="1" />
           <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.39" value="1" />
           <entry key="project.open.time.43" value="1" />
-          <entry key="project.opened" value="22" />
+          <entry key="project.opened" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="1750" />
+          <entry key="cs" value="2213" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="1750" />
+          <entry key="C#" value="2213" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -171,11 +175,15 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Assets/Scripts/HexMapCamera.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="187">
-                  <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+                <state relative-caret-position="680">
+                  <caret line="41" column="49" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="49" />
                   <folding>
-                    <marker date="1552933015045" expanded="true" signature="61:247" ph="{...}" />
-                    <marker date="1552933015045" expanded="true" signature="154:245" ph="{...}" />
+                    <marker date="1552935143004" expanded="false" signature="6:71" ph="..." />
+                    <marker date="1552935143004" expanded="true" signature="114:1200" ph="{...}" />
+                    <marker date="1552935143004" expanded="true" signature="459:550" ph="{...}" />
+                    <marker date="1552935143004" expanded="true" signature="577:737" ph="{...}" />
+                    <marker date="1552935143004" expanded="true" signature="676:731" ph="{...}" />
+                    <marker date="1552935143004" expanded="true" signature="779:1198" ph="{...}" />
                   </folding>
                 </state>
               </provider>
@@ -212,7 +220,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="1000" />
     <option name="y" value="2" />
     <option name="width" value="921" />
@@ -224,6 +232,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="FileSystemExplorer" />
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -240,10 +252,6 @@
           <select />
         </subPane>
         <option name="show-hidden-items" value="false" />
-      </pane>
-      <pane id="FileSystemExplorer" />
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
       </pane>
     </panes>
   </component>
@@ -311,12 +319,13 @@
       <workItem from="1552911998136" duration="1714000" />
       <workItem from="1552914272601" duration="1776000" />
       <workItem from="1552917608151" duration="923000" />
-      <workItem from="1552932258113" duration="746000" />
+      <workItem from="1552932258113" duration="1548000" />
+      <workItem from="1552933955234" duration="1455000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26801000" />
+    <option name="totallyTimeSpent" value="29058000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -328,10 +337,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13965885" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.141258" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -462,11 +471,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/HexMapCamera.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        <state relative-caret-position="680">
+          <caret line="41" column="49" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="49" />
           <folding>
-            <marker date="1552933015045" expanded="true" signature="61:247" ph="{...}" />
-            <marker date="1552933015045" expanded="true" signature="154:245" ph="{...}" />
+            <marker date="1552935143004" expanded="false" signature="6:71" ph="..." />
+            <marker date="1552935143004" expanded="true" signature="114:1200" ph="{...}" />
+            <marker date="1552935143004" expanded="true" signature="459:550" ph="{...}" />
+            <marker date="1552935143004" expanded="true" signature="577:737" ph="{...}" />
+            <marker date="1552935143004" expanded="true" signature="676:731" ph="{...}" />
+            <marker date="1552935143004" expanded="true" signature="779:1198" ph="{...}" />
           </folding>
         </state>
       </provider>
