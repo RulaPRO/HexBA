@@ -4,17 +4,19 @@ using UnityEngine;
 [RequireComponent(typeof(MeshFilter), typeof(MeshRenderer))]
 public class HexMesh : MonoBehaviour
 {
-   private Mesh _hexMesh;
-   private List<Vector3> _vertices;
-   private List<int> _triangles;
-    
-   private void Awake()
-   {
-       GetComponent<MeshFilter>().mesh = _hexMesh = new Mesh();
-       _hexMesh.name = "Hex Mesh";
-       _vertices = new List<Vector3>();
-       _triangles = new List<int>();
-   }
+    private Mesh _hexMesh;
+    private MeshCollider _meshCollider;
+    private List<Vector3> _vertices;
+    private List<int> _triangles;
+     
+    private void Awake()
+    {
+        GetComponent<MeshFilter>().mesh = _hexMesh = new Mesh();
+        _meshCollider = gameObject.AddComponent<MeshCollider>();
+        _hexMesh.name = "Hex Mesh";
+        _vertices = new List<Vector3>();
+        _triangles = new List<int>();
+    }
 
     public void Triangulate(HexCell[] cells)
     {
@@ -29,6 +31,8 @@ public class HexMesh : MonoBehaviour
         _hexMesh.vertices = _vertices.ToArray();
         _hexMesh.triangles = _triangles.ToArray();
         _hexMesh.RecalculateNormals();
+        
+        _meshCollider.sharedMesh = _hexMesh;
     }
 
     private void Triangulate(HexCell cell)
